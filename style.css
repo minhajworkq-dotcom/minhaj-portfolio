@@ -2980,6 +2980,260 @@ svg {
 
 }
 /* =========================================================
+   PROJECT 07
+   UAE BANKING FRAUD DETECTION ANALYTICS
+   ========================================================= */
+
+.fraud-project {
+    margin-top: 48px;
+
+    border-color: rgba(0, 229, 255, 0.16);
+
+    background:
+        radial-gradient(
+            circle at 88% 18%,
+            rgba(0, 229, 255, 0.055),
+            transparent 32%
+        ),
+        var(--bg-card);
+}
+
+
+/* Hover */
+
+.fraud-project:hover {
+    border-color: rgba(0, 229, 255, 0.28);
+
+    box-shadow:
+        0 24px 80px rgba(0, 0, 0, 0.48);
+}
+
+
+/* Image */
+
+.fraud-project .project-image-wrapper {
+    border-color: rgba(0, 229, 255, 0.14);
+}
+
+
+/* Image overlay */
+
+.fraud-project .project-image-overlay {
+    background:
+        linear-gradient(
+            to top,
+            rgba(5, 7, 9, 0.82),
+            rgba(5, 7, 9, 0.08) 65%,
+            transparent
+        );
+}
+
+
+/* Project number / tech label */
+
+.fraud-project .project-image-overlay span:last-child {
+    color: var(--cyan);
+}
+
+
+/* Eyebrow */
+
+.fraud-project .project-eyebrow {
+    color: var(--cyan);
+}
+
+
+/* Subtitle */
+
+.fraud-project .featured-project-subtitle {
+    color: var(--muted-light);
+}
+
+
+/* Statistics */
+
+.fraud-project .project-stat strong {
+    color: var(--cyan);
+}
+
+
+/* Feature bullets */
+
+.fraud-project .project-feature-list div::before {
+    color: var(--cyan);
+}
+
+
+/* Technology tags */
+
+.fraud-project .project-tech span {
+    border-color: rgba(0, 229, 255, 0.16);
+}
+
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+
+    .fraud-project {
+        margin-top: 36px;
+    }
+
+}
+
+
+@media (max-width: 640px) {
+
+    .fraud-project {
+        margin-top: 28px;
+    }
+
+    .fraud-project .project-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+/* =========================================================
+   PROJECT 08
+   MARKETING CAMPAIGN PERFORMANCE ANALYSIS
+   ========================================================= */
+
+.marketing-project {
+
+    margin-top: 48px;
+
+    border-color:
+        rgba(0, 229, 255, 0.16);
+
+    background:
+        radial-gradient(
+            circle at 88% 18%,
+            rgba(0, 229, 255, 0.055),
+            transparent 32%
+        ),
+        var(--bg-card);
+}
+
+
+/* Hover */
+
+.marketing-project:hover {
+
+    border-color:
+        rgba(0, 229, 255, 0.28);
+
+    box-shadow:
+        0 24px 80px rgba(0, 0, 0, 0.48);
+}
+
+
+/* Image */
+
+.marketing-project .project-image-wrapper {
+
+    border-color:
+        rgba(0, 229, 255, 0.14);
+}
+
+
+/* Image overlay */
+
+.marketing-project .project-image-overlay {
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(5, 7, 9, 0.82),
+            rgba(5, 7, 9, 0.08) 65%,
+            transparent
+        );
+}
+
+
+/* Project number / technology label */
+
+.marketing-project .project-image-overlay span:last-child {
+
+    color:
+        var(--cyan);
+}
+
+
+/* Eyebrow */
+
+.marketing-project .project-eyebrow {
+
+    color:
+        var(--cyan);
+}
+
+
+/* Subtitle */
+
+.marketing-project .featured-project-subtitle {
+
+    color:
+        var(--muted-light);
+}
+
+
+/* Statistics */
+
+.marketing-project .project-stat strong {
+
+    color:
+        var(--cyan);
+}
+
+
+/* Feature bullets */
+
+.marketing-project .project-feature-list div::before {
+
+    color:
+        var(--cyan);
+}
+
+
+/* Technology tags */
+
+.marketing-project .project-tech span {
+
+    border-color:
+        rgba(0, 229, 255, 0.16);
+}
+
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+
+    .marketing-project {
+
+        margin-top:
+            36px;
+    }
+
+}
+
+
+@media (max-width: 640px) {
+
+    .marketing-project {
+
+        margin-top:
+            28px;
+    }
+
+
+    .marketing-project .project-stats {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+/* =========================================================
    10. EXPERIENCE
 ========================================================= */
 
